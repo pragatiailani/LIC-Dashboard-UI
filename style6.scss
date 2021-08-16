@@ -1,0 +1,49 @@
+@import "fix";
+
+$border: 0.02em solid black;
+// $border: 0;
+$br: 1em;
+$wmargin: 3%;
+$hmargin: 4vh;
+
+@mixin basic{
+    border: $border;
+    margin-left: $wmargin;
+    margin-top: $hmargin;
+    margin-bottom: $hmargin;
+    border-radius: $br;
+    float: left;
+}
+
+.headimg{
+    @include basic;
+    // margin-top: 12vh;
+    height: 35vh;
+    width: 97%;
+    margin-left: 0;
+    background: green;
+}
+
+.headbar{
+    @include basic;
+    position: absolute;
+    top: 25vh;
+    width: 65%;
+    // margin-left: 0;
+    height: 16vh;
+    background: yellow;
+}
+
+.div1{
+    @include basic;
+    margin-left: 0;
+    height: 60vh;
+    width: 30%;
+}
+
+.div2{
+    @include basic;
+    margin-left: 3%;
+    height: 60vh;
+    width: 30%;
+}

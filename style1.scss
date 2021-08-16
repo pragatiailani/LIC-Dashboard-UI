@@ -1,0 +1,69 @@
+@import "fix";
+
+$border: 0.02em solid black;
+// $border: 0;
+$br: 1em;
+$wmargin: 3%;
+$hmargin: 4vh;
+
+@mixin basic{
+    border: $border;
+    margin-left: $wmargin;
+    margin-top: $hmargin;
+    margin-bottom: $hmargin;
+    border-radius: $br;
+    float: left;
+}
+
+.sticker{
+    @include basic;
+    width: 20.9%;
+    height: 10vh;
+    // margin-top: calc($wmargin+$hmargin);
+    margin-top: 12vh;
+}
+
+.div1{
+    @include basic;
+    width: 50%;
+    margin-top: 0;
+    height: 30vh;
+    clear: both;
+}
+
+.div2{
+    @include basic;
+    margin-top: 0;
+    width: 40%;
+    height: 30vh;
+}
+
+.div3{
+    @include basic;
+    margin-top: 0;
+    clear: both;
+    width: 40%;
+    height: 60vh;
+}
+
+.div4{
+    @include basic;
+    margin-top: 0;
+    width: 50%;
+    height: 60vh;
+}
+
+.div5{
+    @include basic;
+    margin-top: 0;
+    clear: both;
+    width: 60%;
+    height: 70vh;
+}
+
+.div6{
+    @include basic;
+    margin-top: 0;
+    width: 30%;
+    height: 70vh;
+}

@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 22%;
+  float: left;
+  position: fixed;
+  border: 0.02em solid black;
+}
+
+.sidebarhead {
+  height: 12vh;
+  width: 100%;
+  border: 0.02em solid black;
+  margin-bottom: 2vh;
+}
+
+.tab {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 1vh;
+  height: 8vh;
+  border: 0.02em solid black;
+  border-radius: 1em;
+}
+
+.sidebartitle {
+  width: 100%;
+  height: 7vh;
+  border: 0.02em solid black;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.contentpage {
+  width: 75%;
+  float: right;
+  border: 0.02em solid black;
+  border-radius: 1em;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.navbar {
+  height: 8vh;
+  width: 100%;
+  border: 0.02em solid black;
+  position: fixed;
+  border-radius: 1em;
+}
+
+.container1 {
+  margin-top: 12vh;
+  height: 60vh;
+  width: 66%;
+  border: 0.02em solid black;
+  float: left;
+}
+
+.div1 {
+  border: 0.02em solid black;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  width: 50%;
+  height: 34vh;
+  margin-top: 0;
+}
+
+.div2 {
+  border: 0.02em solid black;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  width: 20%;
+  height: 34vh;
+  margin-top: 0;
+}
+
+.div3 {
+  border: 0.02em solid black;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  width: 20%;
+  height: 34vh;
+  margin-top: 0;
+}
+
+.div4 {
+  border: 0.02em solid black;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  width: 30%;
+  height: 60vh;
+  margin-top: 12vh;
+}
+
+.div5 {
+  border: 0.02em solid black;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  width: 97%;
+  height: 21vh;
+  margin-top: 0.3vh;
+}
+
+.div6 {
+  border: 0.02em solid black;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  width: 50%;
+  height: 90vh;
+  margin-top: 1vh;
+  float: left;
+}
+
+.div7 {
+  border: 0.02em solid black;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  width: 43%;
+  height: 90vh;
+  margin-top: 1vh;
+  float: left;
+}
+/*# sourceMappingURL=style3.css.map */

@@ -1,0 +1,16 @@
+@import "fix";
+
+$border: 0.02em solid black;
+// $border: 0;
+$br: 1em;
+$wmargin: 3%;
+$hmargin: 4vh;
+
+@mixin basic{
+    border: $border;
+    margin-left: $wmargin;
+    margin-top: $hmargin;
+    margin-bottom: $hmargin;
+    border-radius: $br;
+    float: left;
+}

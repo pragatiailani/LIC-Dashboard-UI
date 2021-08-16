@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 22%;
+  float: left;
+  position: fixed;
+  border: 0.02em solid black;
+}
+
+.sidebarhead {
+  height: 12vh;
+  width: 100%;
+  border: 0.02em solid black;
+  margin-bottom: 2vh;
+}
+
+.tab {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 1vh;
+  height: 8vh;
+  border: 0.02em solid black;
+  border-radius: 1em;
+}
+
+.sidebartitle {
+  width: 100%;
+  height: 7vh;
+  border: 0.02em solid black;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.contentpage {
+  width: 75%;
+  float: right;
+  border: 0.02em solid black;
+  border-radius: 1em;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.navbar {
+  height: 8vh;
+  width: 100%;
+  border: 0.02em solid black;
+  position: fixed;
+  border-radius: 1em;
+}
+
+.headimg {
+  border: 0.02em solid black;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  height: 35vh;
+  width: 97%;
+  margin-left: 0;
+  background: green;
+}
+
+.headbar {
+  border: 0.02em solid black;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  position: absolute;
+  top: 25vh;
+  width: 65%;
+  height: 16vh;
+  background: yellow;
+}
+
+.div1 {
+  border: 0.02em solid black;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  margin-left: 0;
+  height: 60vh;
+  width: 30%;
+}
+
+.div2 {
+  border: 0.02em solid black;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  margin-left: 3%;
+  height: 60vh;
+  width: 30%;
+}
+/*# sourceMappingURL=style6.css.map */
