@@ -1,11 +1,6 @@
 * {
-  padding: 0;
   margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: black;
+  padding: 0;
 }
 
 .sidebar {
@@ -26,7 +21,7 @@ a {
 .sidebarhead {
   height: 12vh;
   width: 100%;
-  border: 0.02em solid black;
+  border: none;
   margin-bottom: 2vh;
 }
 
@@ -35,11 +30,20 @@ a {
   margin-left: 7%;
   margin-top: 1vh;
   height: 8vh;
-  border: 0.02em solid black;
+  border: none;
   border-radius: 1em;
   background: white;
   overflow: hidden;
   line-height: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text {
+  font-size: 1.2em;
 }
 
 .tabactive {
@@ -49,7 +53,7 @@ a {
 .sidebartitle {
   width: 100%;
   height: 7vh;
-  border: 0.02em solid black;
+  border: none;
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
@@ -58,7 +62,7 @@ a {
   width: 90%;
   float: right;
   margin-right: 1%;
-  border: 0.02em solid black;
+  border: none;
   border-radius: 1em;
   height: 100vh;
   overflow-y: scroll;
@@ -67,7 +71,7 @@ a {
 .navbar {
   height: 8vh;
   width: 100%;
-  border: 0.02em solid black;
+  border: none;
   position: fixed;
   border-radius: 1em;
 }
@@ -75,7 +79,7 @@ a {
 .icon {
   height: 8%;
   width: 3.5%;
-  border: 0.02em solid black;
+  border: none;
   margin-left: 0;
   margin-top: 0;
   padding: 0% 1%;
@@ -86,48 +90,104 @@ a {
   background: black;
 }
 
-.div1 {
-  border: 0.02em solid black;
-  margin-left: 3%;
-  margin-top: 4vh;
-  margin-bottom: 4vh;
-  border-radius: 1em;
-  float: left;
-  -webkit-box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
-          box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
-  height: 50vh;
-  width: 100%;
-  margin-left: 0;
-}
-
 .sticker {
-  border: 0.02em solid black;
+  border: none;
   margin-left: 3%;
   margin-top: 4vh;
   margin-bottom: 4vh;
   border-radius: 1em;
   float: left;
+  width: 20.9%;
+  height: 10vh;
+  margin-top: 12vh;
   -webkit-box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
           box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
-  height: 20vh;
-  width: 31%;
 }
 
-.sticker1 {
-  margin-left: 0;
+.div1 {
+  border: none;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  width: 50%;
+  margin-top: 0;
+  height: 30vh;
+  clear: both;
+  -webkit-box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+          box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
 }
 
 .div2 {
-  border: 0.02em solid black;
+  border: none;
   margin-left: 3%;
   margin-top: 4vh;
   margin-bottom: 4vh;
   border-radius: 1em;
   float: left;
+  margin-top: 0;
+  width: 40%;
+  height: 30vh;
   -webkit-box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
           box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
-  margin-left: 0;
-  height: 60vh;
-  width: 100%;
 }
-/*# sourceMappingURL=style4.css.map */
+
+.div3 {
+  border: none;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  margin-top: 0;
+  clear: both;
+  width: 40%;
+  height: 60vh;
+  -webkit-box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+          box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+}
+
+.div4 {
+  border: none;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  margin-top: 0;
+  width: 50%;
+  height: 60vh;
+  -webkit-box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+          box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+}
+
+.div5 {
+  border: none;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  margin-top: 0;
+  clear: both;
+  width: 60%;
+  height: 70vh;
+  -webkit-box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+          box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+}
+
+.div6 {
+  border: none;
+  margin-left: 3%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  border-radius: 1em;
+  float: left;
+  margin-top: 0;
+  width: 30%;
+  height: 70vh;
+  -webkit-box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+          box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+}
+/*# sourceMappingURL=nav.css.map */

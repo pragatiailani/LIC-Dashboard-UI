@@ -3,12 +3,24 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .sidebar {
   height: 100vh;
-  width: 22%;
+  width: 7%;
   float: left;
   position: fixed;
-  border: 0.02em solid black;
+  background: green;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.sidebar:hover {
+  width: 25%;
 }
 
 .sidebarhead {
@@ -19,12 +31,19 @@
 }
 
 .tab {
-  width: 80%;
-  margin-left: 10%;
+  width: 78%;
+  margin-left: 7%;
   margin-top: 1vh;
   height: 8vh;
   border: 0.02em solid black;
   border-radius: 1em;
+  background: white;
+  overflow: hidden;
+  line-height: 3em;
+}
+
+.tabactive {
+  background: white;
 }
 
 .sidebartitle {
@@ -36,8 +55,9 @@
 }
 
 .contentpage {
-  width: 75%;
+  width: 90%;
   float: right;
+  margin-right: 1%;
   border: 0.02em solid black;
   border-radius: 1em;
   height: 100vh;
@@ -50,5 +70,19 @@
   border: 0.02em solid black;
   position: fixed;
   border-radius: 1em;
+}
+
+.icon {
+  height: 8%;
+  width: 3.5%;
+  border: 0.02em solid black;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0% 1%;
+  border-radius: 0.5em;
+  position: fixed;
+  font-size: 2em;
+  color: white;
+  background: black;
 }
 /*# sourceMappingURL=style7.css.map */

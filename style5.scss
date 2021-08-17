@@ -3,7 +3,7 @@
 $border: 0.02em solid black;
 // $border: 0;
 $br: 1em;
-$wmargin: 3%;
+$wmargin: 0;
 $hmargin: 4vh;
 
 @mixin basic{
@@ -13,4 +13,39 @@ $hmargin: 4vh;
     margin-bottom: $hmargin;
     border-radius: $br;
     float: left;
+}
+
+.container1{
+    width: 60%;
+    height: auto;
+    border: $border;
+    float: left;
+}
+
+.div1{
+    @include basic;
+    width: 100%;
+    height: 30vh;
+    box-shadow:1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+}
+
+.container2{
+    width: 35%;
+    height: auto;
+    border: $border;
+    float: right;
+}
+
+.div2{
+    @include basic;
+    width: 100%;
+    height: 40vh;
+    box-shadow:1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+}
+
+.div3{
+    @include basic;
+    width: 100%;
+    height: 70vh;
+    box-shadow:1px 1px 30px 0px rgba(20, 0, 0, 0.2);
 }
