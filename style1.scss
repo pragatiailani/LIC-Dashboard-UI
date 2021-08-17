@@ -1,7 +1,7 @@
 @import "fix";
 
-$border: 0.02em solid black;
-// $border: 0;
+// $border: 0.02em solid black;
+$border: 0;
 $br: 1em;
 $wmargin: 3%;
 $hmargin: 4vh;
@@ -75,3 +75,16 @@ $hmargin: 4vh;
     box-shadow:1px 1px 30px 0px rgba(20, 0, 0, 0.2);
 }
 
+@media only screen and (max-width: 768px) {
+    .sticker{
+        width : 43%;
+        height: 10vh;
+        margin-top: 1vh;
+    }
+    .div3, .div4{
+        height: 40vh;
+    }    
+    .div5, .div6{
+        height: 50vh;
+    }
+}

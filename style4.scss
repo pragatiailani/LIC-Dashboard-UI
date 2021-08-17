@@ -1,7 +1,7 @@
 @import "fix";
 
-$border: 0.02em solid black;
-// $border: 0;
+// $border: 0.02em solid black;
+$border: 0;
 $br: 1em;
 $wmargin: 3%;
 $hmargin: 4vh;
@@ -38,4 +38,17 @@ $hmargin: 4vh;
     margin-left: 0;
     height: 60vh;
     width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .sticker{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .sticker{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 0;
+    }
 }

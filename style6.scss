@@ -1,7 +1,7 @@
 @import "fix";
 
-$border: 0.02em solid black;
-// $border: 0;
+// $border: 0.02em solid black;
+$border: 0;
 $br: 1em;
 $wmargin: 3%;
 $hmargin: 4vh;
@@ -21,7 +21,7 @@ $hmargin: 4vh;
     height: 35vh;
     width: 97%;
     margin-left: 0;
-    background: green;
+    background: linear-gradient(135deg, hsla(327, 98%, 48%, 1) 0%, hsla(312, 83%, 42%, 1) 50%, hsla(278, 69%, 45%, 1) 100%);
 }
 
 .headbar{

@@ -1,7 +1,7 @@
 @import "fix";
 
-$border: 0.02em solid black;
-// $border: 0;
+// $border: 0.02em solid black;
+$border: 0;
 $br: 1em;
 $wmargin: 3%;
 $hmargin: 4vh;
@@ -36,13 +36,7 @@ $hmargin: 4vh;
     width: 20%;
     height: 34vh;
     margin-top: 0;
-}
-
-.div3{
-    @include basic;
-    width: 20%;
-    height: 34vh;
-    margin-top: 0;
+    // background: black;
 }
 
 .div4{
@@ -57,6 +51,7 @@ $hmargin: 4vh;
     width: 97%;
     height: 21vh;
     margin-top: 0.3vh;
+    // background: green;
 }
 
 .div6{
@@ -73,4 +68,36 @@ $hmargin: 4vh;
     height: 90vh;
     margin-top: 1vh;
     float: left;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container1{
+        width: 62%;
+    }
+    
+    .div1{
+        width: 45%;
+        height: 34vh;
+        margin-top: 0;
+    }
+    
+    // .div2{
+    //     width: 20%;
+    // }
+
+    .div5{
+        width: 92%;
+    }
+
+    .div6{
+        width: 45%;
+        height: 70vh;
+        margin-top: 1vh;
+        float: left;
+    }
+    
+    .div7{
+        width: 45%;
+        height: 70vh;
+    }
 }

@@ -1,9 +1,10 @@
-$border: 0.02em solid black;
-// $border: 0;
+// $border: 0.02em solid black;
+$border: 0;
 
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 a{
@@ -20,6 +21,7 @@ a{
     background: green;
     transition: 0.5s;
     overflow: hidden;
+    background: #F8F9FA;
 }
 
 .sidebar:hover{
@@ -41,14 +43,17 @@ a{
     border: $border;
     border-radius: 1em;
     // background: black;
-    background: white;
+    background: #F8F9FA;
     overflow: hidden;
     line-height: 3em;
+    color: #6B7093;
 }
 
 
 .tabactive{
-    background: white;
+    background: #FFFFFF;
+    color: #416D9D;
+    box-shadow:1px 1px 30px 0px rgba(20, 0, 0, 0.2);
 }
 
 .sidebartitle{
@@ -67,6 +72,7 @@ a{
     border-radius: 1em;
     height: 100vh;
     overflow-y: scroll;
+    background: #F8F9FA;
 }
 
 .navbar{
@@ -87,6 +93,26 @@ a{
     border-radius: 0.5em;
     position: fixed;
     font-size: 2em;
+    background: white;
+    color: #6B7093;
+}
+
+.activeicon{
+    background: #CB0C9F;
     color: white;
-    background: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar{
+        width: 15%;
+    }
+    .sidebar:hover{
+        width: 50%;
+    }
+    .icon{
+        width: 10%;
+    }
+    .contentpage{
+        width: 83%;
+    }
 }
