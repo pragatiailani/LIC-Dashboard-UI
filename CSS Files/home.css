@@ -1,5 +1,84 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 20%;
+  position: fixed;
+  float: left;
+  background: green;
+  overflow-y: scroll;
+}
+
+.profile {
+  height: 4vh;
+  width: 100%;
+  background: brown;
+  font-size: 2em;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.signout {
+  height: 10vh;
+  width: 100%;
+  background: black;
+  margin-bottom: 3vh;
+}
+
+.signout button {
+  height: 8vh;
+  margin-top: 1vh;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 1em;
+}
+
+.sideopt {
+  height: 5vh;
+  width: 100%;
+  margin-top: 2vh;
+  text-align: center;
+  background: white;
+  font-size: 1.5em;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  float: right;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 80%;
+  background: black;
+}
+
+.div1 {
+  background: white;
+  height: 70vh;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5vh;
+  border-radius: 1em;
+  overflow-y: scroll;
+}
+
+.div1 .heading {
+  background: black;
+  height: 10vh;
+  width: 100%;
+}
+
+.div1 table {
+  width: 100%;
+}
+
+.div1 table td {
+  text-align: left;
 }
 /*# sourceMappingURL=home.css.map */
