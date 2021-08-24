@@ -109,6 +109,9 @@
     height: 5vh;
     width: 25%;
     border-radius: 0.5em;
+    background: $gradient;
+    color: white;
+    border: none;
 }
 
 .div1 table{
@@ -139,4 +142,22 @@
 .div1 table button{
     border-radius: 0.2em;
     width: 30%;
+}
+
+.info{
+    background: $p1;
+    color: white;
+    border: none;
+}
+
+.edit{
+    background: $p2;
+    color: white;
+    border: none;
+}
+
+.delete{
+    background: $p3;
+    color: white;
+    border: none;
 }

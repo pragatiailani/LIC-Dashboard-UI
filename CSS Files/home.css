@@ -119,6 +119,9 @@
   height: 5vh;
   width: 25%;
   border-radius: 0.5em;
+  background: linear-gradient(135deg, #f20286 0%, #c412a0 50%, #8824c2 100%);
+  color: white;
+  border: none;
 }
 
 .div1 table {
@@ -149,5 +152,23 @@
 .div1 table button {
   border-radius: 0.2em;
   width: 30%;
+}
+
+.info {
+  background: #f20286;
+  color: white;
+  border: none;
+}
+
+.edit {
+  background: #c412a0;
+  color: white;
+  border: none;
+}
+
+.delete {
+  background: #8824c2;
+  color: white;
+  border: none;
 }
 /*# sourceMappingURL=home.css.map */
