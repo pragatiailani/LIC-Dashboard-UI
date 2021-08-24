@@ -1,73 +1,5 @@
 @import "common";
 
-// *{
-//     margin: 0;
-//     padding: 0;
-//     font-family: 'Poppins', sans-serif;
-// }
-
-// .sidebar{
-//     height: 100vh;
-//     width: 20%;
-//     position: fixed;
-//     float: left;
-//     background: green;
-//     overflow-y: scroll;
-// }
-
-// .profile{
-//     height: 4vh;
-//     width: 100%;
-//     // width: 20%;
-//     // position: fixed;
-//     background: brown;
-//     font-size: 2em;
-//     text-align: center;
-//     padding: 1em 0;
-//     font-weight: bold;
-// }
-
-// .signout{
-//     height: 10vh;
-//     width: 100%;
-//     // width: 20%;
-//     // margin-top: 10vh;
-//     // position: fixed;
-//     background: black;
-//     margin-bottom: 3vh;
-// }
-
-// .signout button{
-//     height: 8vh;
-//     margin-top: 1vh;
-//     width: 80%;
-//     margin-left: 10%;
-//     font-size: 1em;
-//     border-radius: 0.5em;
-// }
-
-// .sideopt{
-//     height: 5vh;
-//     width: 100%;
-//     margin-top: 2vh;
-//     text-align: center;
-//     background: white;
-//     font-size: 1.5em;
-// }
-
-// .sidebar a{
-//     text-decoration: none;
-//     color: black;
-// }
-
-// .content{
-//     float: right;
-//     overflow-y: scroll;
-//     height: 100vh;
-//     width: 80%;
-//     background: black;
-// }
-
 .div1{
     background: white;
     height: 70vh;
@@ -78,21 +10,6 @@
     overflow-y: scroll;
     box-shadow: $bs;
 }
-
-// .div1 .heading{
-//     background: green;
-//     height:8vh;
-//     width: 95%;
-//     margin-left: 2.5%;
-//     font-size: 1.5em;
-//     font-weight: bold;
-// }
-
-// .div1 .heading hr{
-//     font-weight: lighter;
-//     width: 100%;
-//     // margin-left: 2.5%;
-// }
 
 .div1 .addbutton{
     height: 5vh;
@@ -160,4 +77,17 @@
     background: $p3;
     color: white;
     border: none;
+}
+
+@media only screen and (max-width: 970px){
+    .div1{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+}
+
+@media only screen and (max-width: 620px){
+    .div1 .addbutton button{
+        width: 50%;
+    }
 }
