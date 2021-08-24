@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+$bs:1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+
+
+.sidebar{
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    float: left;
+    // background: green;
+    background: #F8F9FA;
+    overflow-y: scroll;
+    box-shadow: $bs;
+}
+
+.profile{
+    height: 4vh;
+    width: 100%;
+    // width: 20%;
+    // position: fixed;
+    // background: brown;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em 0;
+    font-weight: bold;
+}
+
+.signout{
+    height: 10vh;
+    width: 100%;
+    // width: 20%;
+    // margin-top: 10vh;
+    // position: fixed;
+    // background: black;
+    margin-bottom: 3vh;
+}
+
+.signout button{
+    height: 8vh;
+    margin-top: 1vh;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1em;
+    border-radius: 0.5em;
+    box-shadow: $bs;
+    background: linear-gradient(135deg, hsla(327, 98%, 48%, 1) 0%, hsla(312, 83%, 42%, 1) 50%, hsla(278, 69%, 45%, 1) 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sideopt{
+    height: 5vh;
+    width: 100%;
+    margin-top: 2vh;
+    text-align: center;
+    // background: white;
+    font-size: 1.5em;
+}
+
+.sideopt:hover{
+    background: white;
+}
+
+.activetab{
+    box-shadow: $bs;
+    color: grey;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    float: right;
+    overflow-y: scroll;
+    // height: auto;
+    height: 100vh;
+    width: 80%;
+    // background: black;
+    background: #F8F9FA;
+    // position: fixed;
+}
+
+.heading{
+    // background: green;
+    height:8vh;
+    width: 95%;
+    margin-left: 2.5%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.heading hr{
+    font-weight: lighter;
+    width: 100%;
+    // margin-left: 2.5%;
+}
+
+@media only screen and (max-width: 1250px){
+    .profile{
+        height: 8vh;
+    }
+} 

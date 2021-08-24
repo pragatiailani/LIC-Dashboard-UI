@@ -1,0 +1,112 @@
+@import "common";
+
+.sticker{
+    height: 15vh;
+    width: 20%;
+    background: white;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 5vh;
+    border-radius: 0.3em;
+    box-shadow: $bs;
+}
+
+.sticker .cleft{
+    width: 70%;
+    height: 15vh;
+    // background: brown;
+    float: left;
+}
+
+.cleft .title{
+    width: 97%;
+    height: 5vh;
+    background: white;
+    margin-top: 2vh;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+.cleft .record{
+    width: 97%;
+    margin-left: 3%;
+    height: 5vh;
+    margin-top: 2vh;
+    // background: pink;
+    font-size: 1.3em;
+}
+
+.sticker .cright{
+    width: 30%;
+    height: 15vh;
+    // background: green;
+    float: right;
+}
+
+.div1{
+    height: 50vh;
+    margin-top: 5vh;
+    width: 45%;
+    // background: yellow;
+    overflow-y: scroll;
+    margin-right: 3%;
+    clear:left;
+    float: right;
+    border-radius: 0.5em;     
+    box-shadow: $bs;
+}
+
+.div2{
+    @extend .div1;
+    float: right;
+}
+
+table{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    height: 5vh;
+}
+
+@media only screen and (max-width: 1350px){
+    .sticker{
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 1090px){
+    .sticker{
+        width: 30%;
+    }
+    .div1{
+        width: 65%;
+        margin-right: 17.5%; 
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .sticker{
+        width: 40%;
+    }
+    .div1{
+        width: 80%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .sticker{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .div1{
+        width: 90%;
+        margin-right: 5%;
+    }
+}
