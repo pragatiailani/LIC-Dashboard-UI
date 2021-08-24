@@ -18,14 +18,14 @@
 .profile {
   height: 4vh;
   width: 100%;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   padding: 1em 0;
   font-weight: bold;
 }
 
 .signout {
-  height: 10vh;
+  height: 8vh;
   width: 100%;
   margin-bottom: 3vh;
 }
@@ -94,18 +94,21 @@
   background: #f20286;
   color: white;
   border: none;
+  cursor: pointer;
 }
 
 .edit {
   background: #c412a0;
   color: white;
   border: none;
+  cursor: pointer;
 }
 
 .delete {
   background: #8824c2;
   color: white;
   border: none;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 915px) {
@@ -115,66 +118,71 @@
 }
 
 .div1 {
-  background: white;
-  height: 90vh;
   width: 90%;
   margin-left: 5%;
+  height: 90vh;
+  background: white;
+  -webkit-box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
+          box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
   margin-top: 5vh;
   border-radius: 0.5em;
   overflow-y: scroll;
-  -webkit-box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
-          box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
 }
 
-.div1 .addbutton {
-  height: 5vh;
+.addnew {
+  height: 7vh;
   width: 95%;
   margin-left: 2.5%;
-  text-align: right;
-  padding: 1.2em 0;
 }
 
-.div1 .addbutton button {
+.searchbar {
+  height: 5vh;
+  width: 30%;
+  border-radius: 0.5em;
+  overflow: hidden;
+  float: left;
+  border: 0.02em solid black;
+}
+
+.addnew .searchbar input {
+  float: left;
+  height: 5vh;
+  width: 85%;
+  border: none;
+  outline: none;
+}
+
+.icon {
+  width: 15%;
+  height: 5vh;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+}
+
+.addnew .searchbar i {
+  font-size: 1.5em;
+}
+
+.addnew button {
+  float: right;
   height: 5vh;
   width: 20%;
   border-radius: 0.5em;
+  border: none;
   background: linear-gradient(135deg, #f20286 0%, #c412a0 50%, #8824c2 100%);
   color: white;
-  border: none;
+  cursor: pointer;
 }
 
-.div1 table {
+table {
   width: 95%;
   margin-left: 2.5%;
 }
 
-.div1 table th {
-  border-bottom: 0.02em solid black;
-}
-
-.div1 table td {
-  height: 7vh;
-  border-bottom: 0.05em solid rgba(128, 125, 125, 0.2);
-}
-
-.div1 table .id {
-  width: 5%;
-}
-
-.div1 table .name {
-  width: 35%;
-}
-
-.div1 table .email {
-  width: 45%;
-}
-
-.div1 table .action {
-  width: 15%;
-}
-
-.div1 table th {
+th {
   text-align: left;
+  border-bottom: 0.02em solid black;
 }
 
 .div1 table button {
@@ -183,22 +191,12 @@
   height: 5vh;
 }
 
-@media only screen and (max-width: 970px) {
-  .div1 {
-    width: 95%;
-    margin-left: 2.5%;
-  }
+.div1 table td {
+  height: 7vh;
+  border-bottom: 0.05em solid rgba(128, 125, 125, 0.2);
 }
 
-@media only screen and (max-width: 750px) {
-  .div1 .addbutton button {
-    width: 30%;
-  }
+.addnew button {
+  width: 35%;
 }
-
-@media only screen and (max-width: 500px) {
-  .div1 .addbutton button {
-    width: 40%;
-  }
-}
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=tab7.css.map */

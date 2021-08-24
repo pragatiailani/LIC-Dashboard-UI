@@ -6,7 +6,7 @@
     width: 90%;
     margin-left: 5%;
     margin-top: 5vh;
-    border-radius: 1em; 
+    border-radius: $br; 
     overflow-y: scroll;
     box-shadow: $bs;
 }
@@ -25,7 +25,7 @@
     // margin-right: 2%;
     height: 5vh;
     width: 20%;
-    border-radius: 0.5em;
+    border-radius: $br;
     background: $gradient;
     color: white;
     border: none;
@@ -67,28 +67,28 @@
 }
 
 .div1 table button{
-    border-radius: 0.2em;
+    border-radius: $br;
     width: 30%;
     height: 5vh;
 }
 
-.info{
-    background: $p1;
-    color: white;
-    border: none;
-}
+// .info{
+//     background: $p1;
+//     color: white;
+//     border: none;
+// }
 
-.edit{
-    background: $p2;
-    color: white;
-    border: none;
-}
+// .edit{
+//     background: $p2;
+//     color: white;
+//     border: none;
+// }
 
-.delete{
-    background: $p3;
-    color: white;
-    border: none;
-}
+// .delete{
+//     background: $p3;
+//     color: white;
+//     border: none;
+// }
 
 @media only screen and (max-width: 970px){
     .div1{

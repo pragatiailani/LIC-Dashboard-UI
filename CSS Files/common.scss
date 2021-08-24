@@ -9,6 +9,8 @@ $gradient: linear-gradient(135deg, hsla(327, 98%, 48%, 1) 0%, hsla(312, 83%, 42%
 $p1:hsla(327, 98%, 48%, 1);
 $p2: hsla(312, 83%, 42%, 1);
 $p3: hsla(278, 69%, 45%, 1);
+$br: 0.5em;
+
 .sidebar{
     height: 100vh;
     width: 20%;
@@ -26,14 +28,14 @@ $p3: hsla(278, 69%, 45%, 1);
     // width: 20%;
     // position: fixed;
     // background: brown;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
     padding: 1em 0;
     font-weight: bold;
 }
 
 .signout{
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     // width: 20%;
     // margin-top: 10vh;
@@ -43,10 +45,10 @@ $p3: hsla(278, 69%, 45%, 1);
 }
 
 .signout button{
-    height: 8vh;
+    height: 7vh;
     margin-top: 1vh;
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
     font-size: 1em;
     border-radius: 0.5em;
     box-shadow: $bs;
@@ -104,6 +106,27 @@ $p3: hsla(278, 69%, 45%, 1);
     font-weight: lighter;
     width: 100%;
     // margin-left: 2.5%;
+}
+
+.info{
+    background: $p1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.edit{
+    background: $p2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete{
+    background: $p3;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 915px){
