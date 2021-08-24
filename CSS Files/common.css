@@ -18,7 +18,7 @@
 .profile {
   height: 4vh;
   width: 100%;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   padding: 1em 0;
   font-weight: bold;
@@ -50,7 +50,7 @@
   width: 100%;
   margin-top: 2vh;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .sideopt:hover {
@@ -82,6 +82,7 @@
   margin-left: 2.5%;
   font-size: 1.5em;
   font-weight: bold;
+  margin-top: 3vh;
 }
 
 .heading hr {
@@ -89,7 +90,7 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 915px) {
   .profile {
     height: 8vh;
   }

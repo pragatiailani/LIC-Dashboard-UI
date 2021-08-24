@@ -26,7 +26,7 @@ $p3: hsla(278, 69%, 45%, 1);
     // width: 20%;
     // position: fixed;
     // background: brown;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     padding: 1em 0;
     font-weight: bold;
@@ -62,7 +62,7 @@ $p3: hsla(278, 69%, 45%, 1);
     margin-top: 2vh;
     text-align: center;
     // background: white;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .sideopt:hover{
@@ -97,6 +97,7 @@ $p3: hsla(278, 69%, 45%, 1);
     margin-left: 2.5%;
     font-size: 1.5em;
     font-weight: bold;
+    margin-top: 3vh;
 }
 
 .heading hr{
@@ -105,7 +106,7 @@ $p3: hsla(278, 69%, 45%, 1);
     // margin-left: 2.5%;
 }
 
-@media only screen and (max-width: 1250px){
+@media only screen and (max-width: 915px){
     .profile{
         height: 8vh;
     }

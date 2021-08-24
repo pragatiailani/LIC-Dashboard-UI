@@ -18,7 +18,7 @@
 .profile {
   height: 4vh;
   width: 100%;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   padding: 1em 0;
   font-weight: bold;
@@ -50,7 +50,7 @@
   width: 100%;
   margin-top: 2vh;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .sideopt:hover {
@@ -82,6 +82,7 @@
   margin-left: 2.5%;
   font-size: 1.5em;
   font-weight: bold;
+  margin-top: 3vh;
 }
 
 .heading hr {
@@ -89,7 +90,7 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 915px) {
   .profile {
     height: 8vh;
   }
@@ -97,9 +98,9 @@
 
 .div1 {
   background: white;
-  height: 70vh;
-  width: 80%;
-  margin-left: 10%;
+  height: 90vh;
+  width: 90%;
+  margin-left: 5%;
   margin-top: 5vh;
   border-radius: 1em;
   overflow-y: scroll;
@@ -117,7 +118,7 @@
 
 .div1 .addbutton button {
   height: 5vh;
-  width: 25%;
+  width: 20%;
   border-radius: 0.5em;
   background: linear-gradient(135deg, #f20286 0%, #c412a0 50%, #8824c2 100%);
   color: white;
@@ -127,6 +128,15 @@
 .div1 table {
   width: 95%;
   margin-left: 2.5%;
+}
+
+.div1 table th {
+  border-bottom: 0.02em solid black;
+}
+
+.div1 table td {
+  height: 7vh;
+  border-bottom: 0.05em solid rgba(128, 125, 125, 0.2);
 }
 
 .div1 table .id {
@@ -152,6 +162,7 @@
 .div1 table button {
   border-radius: 0.2em;
   width: 30%;
+  height: 5vh;
 }
 
 .info {
@@ -179,9 +190,15 @@
   }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 750px) {
   .div1 .addbutton button {
-    width: 50%;
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .div1 .addbutton button {
+    width: 40%;
   }
 }
 /*# sourceMappingURL=home.css.map */
