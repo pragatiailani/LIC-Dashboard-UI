@@ -18,23 +18,23 @@
 .profile {
   height: 4vh;
   width: 100%;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   padding: 1em 0;
   font-weight: bold;
 }
 
 .signout {
-  height: 10vh;
+  height: 8vh;
   width: 100%;
   margin-bottom: 3vh;
 }
 
 .signout button {
-  height: 8vh;
+  height: 7vh;
   margin-top: 1vh;
-  width: 80%;
-  margin-left: 10%;
+  width: 70%;
+  margin-left: 15%;
   font-size: 1em;
   border-radius: 0.5em;
   -webkit-box-shadow: 1px 1px 30px 0px rgba(20, 0, 0, 0.2);
@@ -49,7 +49,6 @@
   height: 5vh;
   width: 100%;
   margin-top: 2vh;
-  text-align: center;
   font-size: 1.3em;
 }
 
@@ -63,9 +62,18 @@
   color: grey;
 }
 
+.activetab .icon {
+  color: #c412a0;
+}
+
 .sidebar a {
   text-decoration: none;
   color: black;
+}
+
+.icon {
+  margin-left: 5%;
+  margin-right: 2%;
 }
 
 .content {
@@ -90,9 +98,45 @@
   width: 100%;
 }
 
+.info {
+  background: #f20286;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.edit {
+  background: #c412a0;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete {
+  background: #8824c2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 915px) {
   .profile {
     height: 8vh;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .icon {
+    margin-right: 0;
+  }
+  .sideopt {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .icon {
+    display: none;
   }
 }
 
