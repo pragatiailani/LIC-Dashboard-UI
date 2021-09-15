@@ -60,7 +60,7 @@ input:focus {
   text-align: center;
 }
 
-button {
+.button input {
   background: #8824c2;
   color: white;
   height: 10vh;
